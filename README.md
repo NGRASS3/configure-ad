@@ -57,4 +57,20 @@ To fix this we login to DC-1 and enable ICMPv4 on the local windows Firewall. On
 ![image](https://user-images.githubusercontent.com/111653930/235986537-4b62be3e-0b32-4bc6-84fc-075a2906052a.png)
 ![image](https://user-images.githubusercontent.com/111653930/235986600-385429f5-e49f-4e3a-94da-270fffd8645f.png)
 
+<br>
+<p>
+Now we will install AD on DC-1 and create a new forest called "mydomain.com". 
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/235989735-1e6366b3-6d8a-42d6-8279-678c9305047d.png)
+
+
+<br>
+<p>
+Once installed we will restart the remote desktop for DC-1 and log back in. This time we will log in using mydomain\username since DC-1 is now officially a Domain Controller. From here we can run Active Directory and within Active Directory Users and Computers (ADUC), we will create an Organizational Unit (OU) called “_EMPLOYEES” and one named "_ADMINS".
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/235995734-5bd1e6ff-27bf-4a8a-9c56-8e14a09d6f03.png)
+
+
 
