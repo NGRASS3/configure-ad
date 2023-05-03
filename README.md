@@ -83,7 +83,7 @@ Next we will create a new user named Jane Doe. To add a new user right click ins
 
 <br>
 <p>
-Now we will join Client-1 to the domain (mydomain.com). From the azure portal we will change client-1's DNS settings to the DC's Private IP address. After you do that restart Client-1 from within the Azure portal. Our picture below shows verification that client-1 is on the DC-1 DNS. 
+Now we will join Client-1 to the domain (mydomain.com). From the azure portal we will change client-1's DNS settings to the DC's Private IP address. We can then restart Client-1 to flush the cache. 
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/236004716-a5adea24-2f82-4877-8822-023fde84f37b.png)
