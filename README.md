@@ -115,4 +115,9 @@ Now we will set up remote desktop for non-administrative users on Client-1. We h
 <p>
 Now to test if non-admin users can log into Client-1 we will use Powershell to run a script that creates a large amount of random users. To start we login to DC-1 as jane_admin. We then open Powershell ISE -> create a new folder -> paste the contents of <a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">this script</a> and run the file. </p>
 
+![image](https://user-images.githubusercontent.com/111653930/236014739-43f522bf-3c57-4455-86f5-8104be20544a.png)
+
+
+
+
 
