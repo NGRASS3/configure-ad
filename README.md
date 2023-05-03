@@ -40,3 +40,11 @@ Once created we need to set DC-1s NIC Private IP Address to static. While inside
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/235938730-70a7adc6-7792-426f-a02e-10a4a1fd0bd0.png)
+
+
+<br>
+<p>
+To ensure connectivity between the client and the domain controller we will login to Client-1 and ping DC-1's IP adress with ping -t (a perpetual ping). 
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/235938730-70a7adc6-7792-426f-a02e-10a4a1fd0bd0.png)
