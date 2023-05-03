@@ -33,3 +33,10 @@ To get this lab started we will need to create 2 VMs in Azure - a Domain Control
 
 ![image](https://user-images.githubusercontent.com/111653930/235935973-2acf7acf-1734-497b-8d25-1a175b1dcff5.png)
 <br />
+
+<p>
+Once created we need to set DC-1s NIC Private IP Address to static. While inside Azure navigate to DC-1 VM -> Networking -> Network Interface -> IP Configurations -> ipconfig1 - then change the Assignment from Dynamic to Static. 
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/235938730-70a7adc6-7792-426f-a02e-10a4a1fd0bd0.png)
+<br />
