@@ -119,6 +119,11 @@ Now to test if non-admin users can log into Client-1 we will use Powershell to r
 ![image](https://user-images.githubusercontent.com/111653930/236015256-e9b7fb56-db75-459c-ae0b-2a173075a607.png)
 
 
+<p> Now we can select any randomly generated user, in this case "mit.rad" and login to Client-1 using "mydomain.com/mit.rad" with the password assigned in the script. We have successfully setup AD and allowed admin and non-admin users access.
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/236017028-24759f96-2588-484a-8e87-b39b562e289b.png)
+![image](https://user-images.githubusercontent.com/111653930/236017065-9a782d4b-5911-4647-8135-79d42f87914c.png)
 
 
 
