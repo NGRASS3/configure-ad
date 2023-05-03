@@ -72,5 +72,17 @@ Once installed we will restart the remote desktop for DC-1 and log back in. This
 
 ![image](https://user-images.githubusercontent.com/111653930/235995734-5bd1e6ff-27bf-4a8a-9c56-8e14a09d6f03.png)
 
+<br>
+<p>
+Next we will create a new user named Jane Doe. To add a new user right click inside the "_ADMINS" OU and click New -> User. Once the user is created we right click her name and select "Member of" to add her to "Domain Admins". This will gve Jane Doe full admin access.
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/236000040-b7590fff-d552-4b72-ba17-82265a092902.png)
+![image](https://user-images.githubusercontent.com/111653930/236000096-83992613-64f2-4835-af81-819fef6488aa.png)
+
+
+
+
+
 
 
