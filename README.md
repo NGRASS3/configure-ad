@@ -21,7 +21,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Create 2 VMs DC-1 (Windows Server 2022) & Client VM (windows 10)
-- Step 2
+- Set DC-1s NIC Private IP address to be static
 - Step 3
 - Step 4
 
@@ -40,4 +40,3 @@ Once created we need to set DC-1s NIC Private IP Address to static. While inside
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/235938730-70a7adc6-7792-426f-a02e-10a4a1fd0bd0.png)
-<br />
