@@ -104,4 +104,10 @@ Once we verify the proper DNS we can right click the start menu -> System -> Ren
 ![image](https://user-images.githubusercontent.com/111653930/236007980-0c1c0466-1f41-4be0-bc42-869e5c6f6c33.png)
 
 
+<br>
+<p>
+Now we will set up remote desktop for non-administrative users on Client-1. We have to log into Client-1 as an admin and open system properties. Click on "Remote Desktop", allow "domain users" access to remote desktop. You can now log into Client-1 as a normal user.</p>
+
+![image](https://user-images.githubusercontent.com/111653930/236009998-ef8f7127-9bf0-4eb2-8d2d-5908fa3dcb9e.png)
+
 
