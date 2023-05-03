@@ -99,7 +99,7 @@ We can now log back into Client-1 and use the command line to run ipconfig /all 
 
 <br>
 <p>
-Once we verify the proper DNS we can right click the start menu -> System -> Rename this PC -> Change -> Domain and type in mydomain.com. From here use the use the username mydomain.com\jane_admin.</p>
+Once we verify the proper DNS we can right click the start menu -> System -> Rename this PC -> Change -> Domain and type in mydomain.com. From here use the use the username mydomain.com\jane_admin. This will prompt a restart and now Client-1 will be officially joined to the Domain. Now when Client-1 comes back online we will be able to login to it using jane_admin because Client-1 is a member of the domain, and jane_admin is a member of that domain.</p>
 
 ![image](https://user-images.githubusercontent.com/111653930/236007980-0c1c0466-1f41-4be0-bc42-869e5c6f6c33.png)
 
