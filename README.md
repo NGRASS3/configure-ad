@@ -44,7 +44,7 @@ Once created we need to set DC-1s NIC Private IP Address to static. While inside
 
 <br>
 <p>
-To ensure connectivity between the client and the domain controller we will login to Client-1 and ping DC-1's IP adress with ping -t (a perpetual ping). 
+To ensure connectivity between the client and the domain controller we will login to Client-1 and ping DC-1's IP adress with ping -t (a perpetual ping). This will timeout due to DC-1's windows firewall blocking ICMP traffic.
 </p>
 
-![image](https://user-images.githubusercontent.com/111653930/235938730-70a7adc6-7792-426f-a02e-10a4a1fd0bd0.png)
+![image](https://user-images.githubusercontent.com/111653930/235984862-80dfabfc-c678-411a-bd38-1afcdf3a4b6e.png)
