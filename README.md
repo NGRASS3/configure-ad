@@ -44,7 +44,17 @@ Once created we need to set DC-1s NIC Private IP Address to static. While inside
 
 <br>
 <p>
-To ensure connectivity between the client and the domain controller we will login to Client-1 and ping DC-1's IP adress with ping -t (a perpetual ping). This will timeout due to DC-1's windows firewall blocking ICMP traffic.
+To ensure connectivity between the client and the domain controller we will login to Client-1 and ping DC-1's IP address with ping -t (a perpetual ping). This will timeout due to DC-1's windows firewall blocking ICMPv4 traffic.
 </p>
 
 ![image](https://user-images.githubusercontent.com/111653930/235984862-80dfabfc-c678-411a-bd38-1afcdf3a4b6e.png)
+
+<br>
+<p>
+To fix this we login to DC-1 and enable ICMPv4 on the local windows Firewall. Once completed we can re-try pinging DC-1 from Client-1 and this time it's successful. 
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/235986537-4b62be3e-0b32-4bc6-84fc-075a2906052a.png)
+![image](https://user-images.githubusercontent.com/111653930/235986600-385429f5-e49f-4e3a-94da-270fffd8645f.png)
+
+
