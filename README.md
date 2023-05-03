@@ -23,7 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create 2 VMs DC-1 (Windows Server 2022) & Client VM (windows 10)
 - Ensure Connectivity between client and Domain Controller
 - Install Active Directory on Domain Controller
-- Step 4
+- Create an Admin and Normal User Account in AD
 
 <h2>Deployment and Configuration Steps</h2>
 
