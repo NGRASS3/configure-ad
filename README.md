@@ -97,6 +97,11 @@ We can now log back into Client-1 and use the command line to run ipconfig /all 
 ![image](https://user-images.githubusercontent.com/111653930/236006676-6ab580a9-6468-4c69-88c9-298f81697243.png)
 
 
+<br>
+<p>
+Once we verify the proper DNS we can right click the start menu -> System -> Rename this PC -> Change -> Domain and type in mydomain.com. From here use the use the username mydomain.com\jane_admin.</p>
+
+![image](https://user-images.githubusercontent.com/111653930/236007980-0c1c0466-1f41-4be0-bc42-869e5c6f6c33.png)
 
 
 
