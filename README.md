@@ -89,6 +89,14 @@ Now we will join Client-1 to the domain (mydomain.com). From the azure portal we
 ![image](https://user-images.githubusercontent.com/111653930/236004716-a5adea24-2f82-4877-8822-023fde84f37b.png)
 
 
+<br>
+<p>
+We can now log back into Client-1 and use the command line to run ipconfig /all to check that the DNS is now using DC-1s Private IP.
+</p>
+
+![image](https://user-images.githubusercontent.com/111653930/236006676-6ab580a9-6468-4c69-88c9-298f81697243.png)
+
+
 
 
 
