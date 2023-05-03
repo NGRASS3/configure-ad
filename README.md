@@ -21,8 +21,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Create 2 VMs DC-1 (Windows Server 2022) & Client VM (windows 10)
-- Set DC-1s NIC Private IP address to be static
-- Step 3
+- Ensure Connectivity between client and Domain Controller
+- Install Active Directory on Domain Controller
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
