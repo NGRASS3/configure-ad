@@ -20,7 +20,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
+- Create 2 VMs DC-1 (Windows Server 2022) & Client VM (windows 10)
 - Step 2
 - Step 3
 - Step 4
@@ -28,9 +28,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+To get this lab started we will need to create 2 VMs in Azure - a Domain Controller VM (Windows Server 2022) named “DC-1” and a Client VM (Windows 10) named “Client-1”. 
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
+![image](https://user-images.githubusercontent.com/111653930/235935973-2acf7acf-1734-497b-8d25-1a175b1dcff5.png)
 <br />
